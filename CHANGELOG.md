@@ -1,3 +1,14 @@
+## [26.18.1](https://github.com/electron-userland/electron-builder/compare/electron-builder@26.18.0...electron-builder@26.18.1) (2026-10-21)
+
+
+### Bug Fixes
+
+* **ci:** pin shard jobs to the planner's smart cache snapshot to fix shard index out of range (v26) ([#10357](https://github.com/electron-userland/electron-builder/issues/10357)) ([385cde0](https://github.com/electron-userland/electron-builder/commit/385cde09e284f0ab0567532ddf78341a156c7773))
+* **nsis:** ignore a cached block map that does not describe the cached installer (v26 backport) ([#10338](https://github.com/electron-userland/electron-builder/issues/10338)) ([6f2dd83](https://github.com/electron-userland/electron-builder/commit/6f2dd83818d128a4b112fa4cc0684a7c55418494))
+* **nsis:** pin the LZMA2 block size of differential-aware packages (v26 backport) ([#10336](https://github.com/electron-userland/electron-builder/issues/10336)) ([bb061e8](https://github.com/electron-userland/electron-builder/commit/bb061e84825abb5f187f2d7301cda2299ca17376))
+
+
+
 # [26.18.0](https://github.com/electron-userland/electron-builder/compare/electron-builder@26.17.0...electron-builder@26.18.0) (2026-10-20)
 
 

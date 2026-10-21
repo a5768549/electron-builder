@@ -1,5 +1,22 @@
 # app-builder-lib
 
+## 26.18.1
+
+### Patch Changes
+
+- Fix(nsis): pin the LZMA2 block size of differential-aware packages so their bytes no longer depend on the build host's thread count. On hosts with fewer than 4 threads (such as 2-CPU GitHub runners), 7-Zip wrote one solid stream, so most of the package changed every release and differential updates downloaded nearly the whole package. Output on 4+ thread hosts is unchanged. _[`#10336`](https://github.com/electron-userland/electron-builder/pull/10336) [`bb061e8`](https://github.com/electron-userland/electron-builder/commit/bb061e84825abb5f187f2d7301cda2299ca17376) [@imlucas](https://github.com/imlucas)_
+
+<details><summary>Updated 2 dependencies</summary>
+
+<small>
+
+</small>
+
+- `dmg-builder@26.18.1`
+- `electron-builder-squirrel-windows@26.18.1`
+
+</details>
+
 ## 26.18.0
 
 ### Minor Changes
